@@ -1,0 +1,755 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210524160958
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524161023
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\download-core-tools.ps1
+**********************
+Windows PowerShell transcript start
+Start time: 20210524161023
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524161023
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term '.\download-core-tools.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+.\download-core-tools.ps1 : The term '.\download-core-tools.ps1' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ .\download-core-tools.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\download-core-tools.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\download-core-tools.ps1 : The term '.\download-core-tools.ps1' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ .\download-core-tools.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\download-core-tools.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\download-core-tools.ps1 : The term '.\download-core-tools.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that
+the path is correct and try again.
+At line:1 char:1
++ .\download-core-tools.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\download-core-tools.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20210524161356
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\run-solution-packager.ps1 
+**********************
+Windows PowerShell transcript start
+Start time: 20210524161356
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524161356
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term '.\run-solution-packager.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+.\run-solution-packager.ps1 : The term '.\run-solution-packager.ps1' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:1
++ .\run-solution-packager.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\run-solution-packager.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\run-solution-packager.ps1 : The term '.\run-solution-packager.ps1' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the 
+path is correct and try again.
+At line:1 char:1
++ .\run-solution-packager.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\run-solution-packager.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.\run-solution-packager.ps1 : The term '.\run-solution-packager.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify
+that the path is correct and try again.
+At line:1 char:1
++ .\run-solution-packager.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\run-solution-packager.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Command start time: 20210524162212
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\download-core-tools.ps1
+VERBOSE: Performing the operation "Set Alias" on target "Name: nuget Value: ./nuget.exe".
+
+Installing package 'Microsoft.CrmSdk.CoreTools' to 'C:\Users\thakarekc\GitHub\MSPATrain\tools'.
+Unable to find package 'Microsoft.CrmSdk.CoreTools'
+
+
+    Directory: C:\Users\thakarekc\GitHub\MSPATrain\tools
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/24/2021   4:22 PM                CoreTools
+**********************
+Windows PowerShell transcript start
+Start time: 20210524162231
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524162231
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist."
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+
+**********************
+Command start time: 20210524162354
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> Install-Package Microsoft.CrmSdk.CoreTools -Version 9.1.0.79
+**********************
+Windows PowerShell transcript start
+Start time: 20210524162354
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524162354
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PackageManagement\1.0.0.1\PackageProviderFunctions.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PackageProviderFunctions            {New-Dependency, N...
+
+
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Get-Module): "Get-Module"
+>> ParameterBinding(Get-Module): name="Name"; value="PowerShellGet"
+>> ParameterBinding(Get-Module): name="ListAvailable"; value="True"
+
+
+    Directory: C:\Program Files\WindowsPowerShell\Modules
+
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     1.0.0.1    PowerShellGet                       {Install-Module, F...
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20210524162355
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PackageManagement\1.0.0.1\PackageProviderFunctions.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PackageProviderFunctions            {New-Dependency, N...
+
+
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PSModule.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+WARNING: The names of some imported commands from the module 'PSModule' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PSModule                            {Add-PackageSource...
+
+
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Get-PackageProviderName): "Get-PackageProviderName"
+PowerShellGet
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="PsRequest_proxy_16"
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Initialize-Provider): "Initialize-Provider"
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DictionaryRequestObject"
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Get-Feature): "Get-Feature"
+
+Details
+-------
+{}
+
+
+**********************
+Command start time: 20210524162355
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Provider"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Source"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : PublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptSourceLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptPublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Package"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Type
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {Module, Script, All}
+Details         : {}
+
+Name            : Filter
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Tag
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Includes
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues : {DscResource, Cmdlet, Function, Workflow...}
+Details         : {}
+
+Name            : DscResource
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : RoleCapability
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Command
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Install"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Type
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {Module, Script, All}
+Details         : {}
+
+Name            : Scope
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {CurrentUser, AllUsers}
+Details         : {}
+
+Name            : AllowClobber
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : SkipPublisherCheck
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : InstallUpdate
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : NoPathUpdate
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524162356
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> TerminatingError(Install-Package): "A parameter cannot be found that matches parameter name 'Version'."
+**********************
+Windows PowerShell transcript start
+Start time: 20210524162356
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524162356
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="A parameter cannot be found that matches parameter name 'Version'."
+Install-Package : A parameter cannot be found that matches parameter name 'Version'.
+At line:1 char:44
++ Install-Package Microsoft.CrmSdk.CoreTools -Version 9.1.0.79
++                                            ~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Package], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+Install-Package : A parameter cannot be found that matches parameter name 'Version'.
+At line:1 char:44
++ Install-Package Microsoft.CrmSdk.CoreTools -Version 9.1.0.79
++                                            ~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Package], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+Install-Package : A parameter cannot be found that matches parameter name 'Version'.
+At line:1 char:44
++ Install-Package Microsoft.CrmSdk.CoreTools -Version 9.1.0.79
++                                            ~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Install-Package], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
+
+**********************
+Command start time: 20210524162515
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\download-core-tools.ps1
+VERBOSE: Performing the operation "Set Alias" on target "Name: nuget Value: ./nuget.exe".
+
+
+
+    Directory: C:\Users\thakarekc\GitHub\MSPATrain\tools
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/24/2021   4:25 PM                CoreTools
+**********************
+Windows PowerShell transcript start
+Start time: 20210524162534
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524162534
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist."
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+
+**********************
+Command start time: 20210524164757
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\download-core-tools.ps1
+VERBOSE: Performing the operation "Set Alias" on target "Name: nuget Value: ./nuget.exe".
+
+
+
+    Directory: C:\Users\thakarekc\GitHub\MSPATrain\tools
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/24/2021   4:48 PM                CoreTools
+**********************
+Windows PowerShell transcript start
+Start time: 20210524164813
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524164813
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist."
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+
+**********************
+Command start time: 20210524164915
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\download-core-tools.ps1
+VERBOSE: Performing the operation "Set Alias" on target "Name: nuget Value: ./nuget.exe".
+
+
+
+    Directory: C:\Users\thakarekc\GitHub\MSPATrain\tools
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/24/2021   4:49 PM                CoreTools
+**********************
+Windows PowerShell transcript start
+Start time: 20210524164932
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12976
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524164932
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist."
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not 
+exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'C:\Users\thakarekc\GitHub\MSPATrain\tools\content\bin\coretools' because it does not exist.
+At C:\Users\thakarekc\GitHub\MSPATrain\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thakar...t\bin\coretools:String) [Move-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+
+**********************
+Command start time: 20210524165504
+**********************
+PS C:\Users\thakarekc\GitHub\MSPATrain> .\run-solution-packager.ps1
+

@@ -1,0 +1,917 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210524160021
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160021
+**********************
+PS>[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+**********************
+Windows PowerShell transcript start
+Start time: 20210524160024
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160024
+**********************
+PS>            param($Credential, $WebProxy)  
+
+            try
+            {
+                $request = [System.Net.WebRequest]::Create("https://go.microsoft.com/fwlink/?LinkID=397631&clcid=0x409")
+                $request.Method = 'GET'
+                $request.Timeout = 30000
+                if($Credential)
+                {
+                    $request.Credentials = $Credential.GetNetworkCredential()
+                }
+                else
+                {
+                    $request.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
+                }
+
+                $request.AllowAutoRedirect = $True
+                
+                if($WebProxy)
+                {
+                    $request.Proxy = $WebProxy
+                }
+
+                $response = [System.Net.HttpWebResponse]$request.GetResponse()             
+                if($response.StatusCode.value__ -eq 302)
+                {
+                    $response.Headers["Location"].ToString()
+                }
+                else
+                {
+                    $response
+                }                
+                $response.Close()
+            }
+            catch [System.Net.WebException]
+            {
+                "Error:System.Net.WebException"
+            } 
+
+
+IsMutuallyAuthenticated : False
+Cookies                 : {}
+Headers                 : {Pragma, X-CorrelationId, DataServiceVersion,
+                          Content-Security-Policy...}
+SupportsHeaders         : True
+ContentLength           : 338
+ContentEncoding         :
+ContentType             : application/xml; charset=utf-8
+CharacterSet            : utf-8
+Server                  : Microsoft-IIS/10.0
+LastModified            : 5/24/2021 4:00:26 PM
+StatusCode              : OK
+StatusDescription       : OK
+ProtocolVersion         : 1.1
+ResponseUri             : https://www.powershellgallery.com/api/v2
+Method                  : GET
+IsFromCache             : False
+
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20210524160026
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160026
+**********************
+PS>            param($Credential, $WebProxy)  
+
+            try
+            {
+                $request = [System.Net.WebRequest]::Create("https://go.microsoft.com/fwlink/?LinkId=528403&clcid=0x409")
+                $request.Method = 'GET'
+                $request.Timeout = 30000
+                if($Credential)
+                {
+                    $request.Credentials = $Credential.GetNetworkCredential()
+                }
+                else
+                {
+                    $request.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
+                }
+
+                $request.AllowAutoRedirect = $True
+                
+                if($WebProxy)
+                {
+                    $request.Proxy = $WebProxy
+                }
+
+                $response = [System.Net.HttpWebResponse]$request.GetResponse()             
+                if($response.StatusCode.value__ -eq 302)
+                {
+                    $response.Headers["Location"].ToString()
+                }
+                else
+                {
+                    $response
+                }                
+                $response.Close()
+            }
+            catch [System.Net.WebException]
+            {
+                "Error:System.Net.WebException"
+            } 
+Error:System.Net.WebException
+**********************
+Windows PowerShell transcript start
+Start time: 20210524160030
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160030
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PackageManagement\1.0.0.1\PackageProviderFunctions.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PackageProviderFunctions            {New-Dependency, N...
+
+
+**********************
+Command start time: 20210524160030
+**********************
+PS>CommandInvocation(Get-Module): "Get-Module"
+>> ParameterBinding(Get-Module): name="Name"; value="PowerShellGet"
+>> ParameterBinding(Get-Module): name="ListAvailable"; value="True"
+
+
+    Directory: C:\Program Files\WindowsPowerShell\Modules
+
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     1.0.0.1    PowerShellGet                       {Install-Module, F...
+
+
+**********************
+Windows PowerShell transcript start
+Start time: 20210524160031
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PackageManagement\1.0.0.1\PackageProviderFunctions.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PackageProviderFunctions            {New-Dependency, N...
+
+
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Import-Module): "Import-Module"
+>> ParameterBinding(Import-Module): name="Name"; value="C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PSModule.psm1"
+>> ParameterBinding(Import-Module): name="PassThru"; value="True"
+WARNING: The names of some imported commands from the module 'PSModule' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.
+
+ModuleType Version    Name                                ExportedCommands
+---------- -------    ----                                ----------------
+Script     0.0        PSModule                            {Add-PackageSource...
+
+
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Get-PackageProviderName): "Get-PackageProviderName"
+PowerShellGet
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="PsRequest_proxy_16"
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Initialize-Provider): "Initialize-Provider"
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DictionaryRequestObject"
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Get-Feature): "Get-Feature"
+
+Details
+-------
+{}
+
+
+**********************
+Command start time: 20210524160031
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.PackageSourceRequestObject"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Resolve-PackageSource): "Resolve-PackageSource"
+
+
+Name         : PSGallery
+Location     : https://www.powershellgallery.com/api/v2
+IsTrusted    : False
+IsRegistered : True
+IsValidated  : False
+Details      : {ScriptPublishLocation, InstallationPolicy,
+               PackageManagementProvider, ScriptSourceLocation...}
+
+
+
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Provider"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Source"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : PublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptSourceLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptPublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160032
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.PackageSourceRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Resolve-PackageSource): "Resolve-PackageSource"
+
+
+Name         : PSGallery
+Location     : https://www.powershellgallery.com/api/v2
+IsTrusted    : False
+IsRegistered : True
+IsValidated  : False
+Details      : {ScriptPublishLocation, InstallationPolicy,
+               PackageManagementProvider, ScriptSourceLocation...}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.PackageSourceRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Resolve-PackageSource): "Resolve-PackageSource"
+
+
+Name         : PSGallery
+Location     : https://www.powershellgallery.com/api/v2
+IsTrusted    : False
+IsRegistered : True
+IsValidated  : False
+Details      : {ScriptPublishLocation, InstallationPolicy,
+               PackageManagementProvider, ScriptSourceLocation...}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.PackageSourceRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Resolve-PackageSource): "Resolve-PackageSource"
+
+
+Name         : PSGallery
+Location     : https://www.powershellgallery.com/api/v2
+IsTrusted    : False
+IsRegistered : True
+IsValidated  : False
+Details      : {ScriptPublishLocation, InstallationPolicy,
+               PackageManagementProvider, ScriptSourceLocation...}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Provider"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Source"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : PublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptSourceLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : ScriptPublishLocation
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Package"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Type
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {Module, Script, All}
+Details         : {}
+
+Name            : Filter
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Tag
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Includes
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues : {DscResource, Cmdlet, Function, Workflow...}
+Details         : {}
+
+Name            : DscResource
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : RoleCapability
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Command
+ExpectedType    : StringArray
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.DynamicOptionRequestObject"
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Get-DynamicOptions): "Get-DynamicOptions"
+>> ParameterBinding(Get-DynamicOptions): name="category"; value="Install"
+
+
+Name            : PackageManagementProvider
+ExpectedType    : String
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : Type
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {Module, Script, All}
+Details         : {}
+
+Name            : Scope
+ExpectedType    : String
+IsRequired      : False
+PermittedValues : {CurrentUser, AllUsers}
+Details         : {}
+
+Name            : AllowClobber
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : SkipPublisherCheck
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : InstallUpdate
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+Name            : NoPathUpdate
+ExpectedType    : Switch
+IsRequired      : False
+PermittedValues :
+Details         : {}
+
+
+
+**********************
+Command start time: 20210524160033
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160034
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.PackageSourceRequestObject"
+**********************
+Command start time: 20210524160034
+**********************
+PS>CommandInvocation(Resolve-PackageSource): "Resolve-PackageSource"
+
+
+Name         : PSGallery
+Location     : https://www.powershellgallery.com/api/v2
+IsTrusted    : False
+IsRegistered : True
+IsValidated  : False
+Details      : {ScriptPublishLocation, InstallationPolicy,
+               PackageManagementProvider, ScriptSourceLocation...}
+
+
+
+**********************
+Command start time: 20210524160034
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160034
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.SoftwareIdentityRequestObject"
+**********************
+Command start time: 20210524160034
+**********************
+PS>CommandInvocation(Find-Package): "Find-Package"
+>> ParameterBinding(Find-Package): name="names"; value="PackageManagement"
+>> ParameterBinding(Find-Package): name="requiredVersion"; value=""
+>> ParameterBinding(Find-Package): name="minimumVersion"; value="1.4.6"
+>> ParameterBinding(Find-Package): name="maximumVersion"; value=""
+0
+0
+1
+2
+3
+4
+
+
+FastPackageReference : NuGet|PackageManagement|1.4.6|https://www.powershellgall
+                       ery.com/api/v2|Module
+Name                 : PackageManagement
+Version              : 1.4.6
+VersionScheme        : MultiPartNumeric
+Source               : PSGallery
+Summary              : PackageManagement (a.k.a. OneGet) is a new way to
+                       discover and install software packages from around the
+                       web.
+                        It is a manager or multiplexor of existing package
+                       managers (also called package providers) that unifies
+                       Windows package management with a single Windows
+                       PowerShell interface. With PackageManagement, you can
+                       do the following.
+                         - Manage a list of software repositories in which
+                       packages can be searched, acquired and installed
+                         - Discover software packages
+                         - Seamlessly install, uninstall, and inventory
+                       packages from one or more software repositories
+FullPath             :
+Filename             : PackageManagement
+SearchKey            : PackageManagement
+FromTrustedSource    : False
+Details              : {downloadCount, created, DscResources, description...}
+
+0
+0
+1
+2
+3
+4
+FastPackageReference : NuGet|PackageManagement|1.4.7|https://www.powershellgall
+                       ery.com/api/v2|Module
+Name                 : PackageManagement
+Version              : 1.4.7
+VersionScheme        : MultiPartNumeric
+Source               : PSGallery
+Summary              : PackageManagement (a.k.a. OneGet) is a new way to
+                       discover and install software packages from around the
+                       web.
+                        It is a manager or multiplexor of existing package
+                       managers (also called package providers) that unifies
+                       Windows package management with a single Windows
+                       PowerShell interface. With PackageManagement, you can
+                       do the following.
+                         - Manage a list of software repositories in which
+                       packages can be searched, acquired and installed
+                         - Discover software packages
+                         - Seamlessly install, uninstall, and inventory
+                       packages from one or more software repositories
+FullPath             :
+Filename             : PackageManagement
+SearchKey            : PackageManagement
+FromTrustedSource    : False
+Details              : {downloadCount, created, DscResources, description...}
+
+
+
+**********************
+Command start time: 20210524160044
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160044
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.SoftwareIdentityRequestObject"
+**********************
+Command start time: 20210524160044
+**********************
+PS>CommandInvocation(Get-InstalledPackage): "Get-InstalledPackage"
+>> ParameterBinding(Get-InstalledPackage): name="Name"; value="PackageManagement"
+>> ParameterBinding(Get-InstalledPackage): name="RequiredVersion"; value="1.4.7"
+0
+0
+1
+
+
+FastPackageReference : NuGet|PackageManagement|1.4.7|https://www.powershellgall
+                       ery.com/api/v2|Module
+Name                 : PackageManagement
+Version              : 1.4.7
+VersionScheme        : MultiPartNumeric
+Source               : https://www.powershellgallery.com/api/v2
+Summary              : PackageManagement (a.k.a. OneGet) is a new way to
+                       discover and install software packages from around the
+                       web.
+                        It is a manager or multiplexor of existing package
+                       managers (also called package providers) that unifies
+                       Windows package management with a single Windows
+                       PowerShell interface. With PackageManagement, you can
+                       do the following.
+                         - Manage a list of software repositories in which
+                       packages can be searched, acquired and installed
+                         - Discover software packages
+                         - Seamlessly install, uninstall, and inventory
+                       packages from one or more software repositories
+FullPath             :
+Filename             :
+SearchKey            :
+FromTrustedSource    : False
+Details              : {SourceName, installeddate, releaseNotes, copyright...}
+
+
+
+**********************
+Command start time: 20210524160045
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Command start time: 20210524160045
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+>> ParameterBinding(Set-Variable): name="Value"; value="Microsoft.PackageManagement.Internal.Implementation.SoftwareIdentityRequestObject"
+**********************
+Command start time: 20210524160045
+**********************
+PS>CommandInvocation(Install-Package): "Install-Package"
+>> ParameterBinding(Install-Package): name="FastPackageReference"; value="NuGet|PackageManagement|1.4.7|https://www.powershellgallery.com/api/v2|Module"
+0
+0
+1
+2
+3
+4
+
+
+FastPackageReference : NuGet|PackageManagement|1.4.7|https://www.powershellgall
+                       ery.com/api/v2|Module
+Name                 : PackageManagement
+Version              : 1.4.7
+VersionScheme        : MultiPartNumeric
+Source               : PSGallery
+Summary              : PackageManagement (a.k.a. OneGet) is a new way to
+                       discover and install software packages from around the
+                       web.
+                        It is a manager or multiplexor of existing package
+                       managers (also called package providers) that unifies
+                       Windows package management with a single Windows
+                       PowerShell interface. With PackageManagement, you can
+                       do the following.
+                         - Manage a list of software repositories in which
+                       packages can be searched, acquired and installed
+                         - Discover software packages
+                         - Seamlessly install, uninstall, and inventory
+                       packages from one or more software repositories
+FullPath             :
+Filename             : PackageManagement
+SearchKey            : PackageManagement
+FromTrustedSource    : False
+Details              : {downloadCount, created, description, copyright...}
+
+
+
+**********************
+Command start time: 20210524160130
+**********************
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="request"
+**********************
+Windows PowerShell transcript start
+Start time: 20210524160130
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -Command [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Install-Module -Name PackageManagement -Force -MinimumVersion 1.4.6 -Scope CurrentUser -AllowClobber -Repository PSGallery
+Process ID: 21644
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524160130
+**********************
+PS>CommandInvocation(New-WinEvent): "New-WinEvent"
+>> ParameterBinding(New-WinEvent): name="ProviderName"; value="Microsoft-Windows-PowerShell"
+>> ParameterBinding(New-WinEvent): name="Id"; value="4101"
+>> ParameterBinding(New-WinEvent): name="Payload"; value="Install, Package=PackageManagement, Version=1.4.7, Provider=PowerShellGet, Source=PSGallery, Status=Installed, DestinationPath=, PackageManagement: A package is installed."
+**********************
+Command start time: 20210524160130
+**********************
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210524160130
+**********************

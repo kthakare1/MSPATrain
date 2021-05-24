@@ -1,0 +1,95 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210524161222
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1'
+Process ID: 21852
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524161222
+**********************
+PS>if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1'
+VERBOSE: Performing the operation "Set Alias" on target "Name: nuget Value: ./nuget.exe".
+Feeds used:
+  C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Installing package 'Microsoft.CrmSdk.CoreTools' to 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools'.
+Unable to find package 'Microsoft.CrmSdk.CoreTools'
+
+
+    Directory: M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/24/2021   4:12 PM                CoreTools
+**********************
+Windows PowerShell transcript start
+Start time: 20210524161238
+Username: NIH\thakarekc
+RunAs User: NIH\thakarekc
+Configuration Name: 
+Machine: L02093887 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1'
+Process ID: 21852
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210524161238
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="Cannot find path 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools\content\bin\coretools' because it does not exist."
+Move-Item : Cannot find path 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools\content\bin\coretools' 
+because it does not exist.
+At M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (M:\Local\Study\...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path 'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools\content\bin\coretools' 
+because it does not exist.
+At M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (M:\Local\Study\...t\bin\coretools:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : Cannot find path
+'M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\tools\content\bin\coretools' because it does not exist.
+At M:\Local\Study\MS_PowerApps\lab-resources\lab-1\copy-to-repo\download-core-tools.ps1:16 char:1
++ Move-Item ./tools/$coreToolsFolder/content/bin/coretools/*.* ./tools/ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (M:\Local\Study\...t\bin\coretools:String) [Move-Item], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+
+
+**********************
+Command start time: 20210524161238
+**********************
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210524161238
+**********************
